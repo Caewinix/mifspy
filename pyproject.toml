@@ -1,0 +1,37 @@
+[project]
+name = "mifspy"
+version = "0.0.1-beta.3"
+authors = [
+  { name = "D. Homola", email = "dani.homola@gmail.com" },
+]
+dependencies = [
+  "scipy>=0.17.0",
+  "numpy>=1.10.4",
+  "scikit-learn>=0.17.1",
+  "bottleneck>=1.0.0",
+  "joblib>=0.16.0"
+]
+description = "Parallelized Mutual Information based Feature Selection module."
+readme = "README.rst"
+requires-python = ">=3.5"
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved",
+    "Programming Language :: C",
+    "Programming Language :: Python",
+    "Topic :: Software Development",
+    "Topic :: Scientific/Engineering",
+    "Programming Language :: Python :: 2.7",
+    "Programming Language :: Python :: 3.5",
+    "Operating System :: OS Independent"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+"Homepage" = "https://github.com/danielhomola/mifs"
+"Bug Tracker" = "https://github.com/danielhomola/mifs/issues"
+"Upload Page" = "https://github.com/Caewinix/mifspy"
